@@ -5,12 +5,12 @@
 // 4  8  12 16 20
 // 5  10 15 20 25
 
-for (let fila = 1; fila <= 5; fila++) {
-    let linea = '';
+for (let row = 1; row <= 5; row++) {
+    let line = '';
 
-    for (let columna = 1; columna <= 5; columna++) {
-        linea += `${fila * columna}\t`;
+    for (let column = 1; column <= 5; column++) {
+        line += `${row * column}\t`;
     }
 
-    console.log(linea);
+    console.log(line);
 }
